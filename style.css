@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#fundo-menusuperior {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-superior {
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+#texto-menusuperior{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+#menusuperior {
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#informacoes-gerais {
+   background-color: #f9f9f9;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+   padding-left: 200px;
+   padding-top: 50px;
+   padding-bottom: 40px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.titulo {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.informacoes-textoetitulo {
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+#texto {
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+#informacoes-imagem {
+    width: 450px;
+    height: 490px;
+    padding-top: 40px;
+    left: 976px;
+    padding-bottom: 35px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+button{
+    background-color: #c07212;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+button:hover{
+    background-color: #c07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #ffffff;
+}
